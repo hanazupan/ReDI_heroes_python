@@ -68,6 +68,7 @@ for x in range(8):
     for y in range(8):
         board[x][y] = (x+1)*(y+1)
 print(board)
+
 # weiterführende Ideen, z.B. für Hackaton:
 # einfache Brettspiele z.B. "vier in einer Reihe",
 # oder "Schiffe versenken"
