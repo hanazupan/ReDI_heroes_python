@@ -27,7 +27,7 @@ print(f"Das Quotient ist {ergebnis}.")
 # und kann man durch 0 teilen?
 zahl = 50
 nul = 0
-#print(f"Ich versuche 50 durch 0 zu teilen. Ergebnis: {zahl/nul}")
+#print(f"Ich versuche 50 durch 0 zu teilen. Ergebnis: {zahl/nul}")    # das geht nicht
 # Weiterführende mathematische Operationen: Potenzen, Division (ganze Zahlen), rest der Division (optional)
 print(f"Was ist 2**4? {2**4}")
 print(f"Was ist 9//4? {9//4}")
