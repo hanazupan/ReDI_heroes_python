@@ -3,52 +3,48 @@ import turtle
 
 # Optional - Funktionen
 def schreibe_H(farbe):
-    t = turtle.Turtle()
-    t.color(farbe)
-    t.left(90)
-    t.forward(200)
-    t.backward(100)
-    t.right(90)
-    t.forward(70)
-    t.right(90)
-    t.forward(100)
-    t.backward(200)
-    t.hideturtle()
+    turtle.color(farbe)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.backward(100)
+    turtle.right(90)
+    turtle.forward(70)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.backward(200)
+    turtle.hideturtle()
 
 
 def quadrat(farbe, seite):
-    t = turtle.Turtle()
-    t.color(farbe)
+    turtle.color(farbe)
     for i in range(4):
-        t.forward(seite)
-        t.left(90)
-    t.hideturtle()
+        turtle.forward(seite)
+        turtle.left(90)
+    turtle.hideturtle()
 
 
 def stern(farbe):
-    t = turtle.Turtle()
     turtle.bgcolor("Black")
-    t.color(farbe)
+    turtle.color(farbe)
     for blatt in range(10):
-        t.circle(100, extent=60)
-        t.left(170)
-        t.circle(100, extent=60)
+        turtle.circle(100, extent=60)
+        turtle.left(170)
+        turtle.circle(100, extent=60)
 
 
 def blume(farbe1, farbe2):
-    t = turtle.Turtle()
-    t.color(farbe1)
-    t.begin_fill()
+    turtle.color(farbe1)
+    turtle.begin_fill()
     for blatt in range(10):
-        t.circle(100, extent=60)
-        t.left(100)
-        t.circle(100, extent=60)
-    t.end_fill()
-    t.color(farbe2)
-    t.begin_fill()
-    t.circle(20)
-    t.end_fill()
-    t.hideturtle()
+        turtle.circle(100, extent=60)
+        turtle.left(100)
+        turtle.circle(100, extent=60)
+    turtle.end_fill()
+    turtle.color(farbe2)
+    turtle.begin_fill()
+    turtle.circle(20)
+    turtle.end_fill()
+    turtle.hideturtle()
 
 
 schreibe_H("Red")
