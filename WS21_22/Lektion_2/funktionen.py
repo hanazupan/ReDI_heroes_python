@@ -24,7 +24,7 @@ def quadrat(farbe, seite):
 
 
 def stern(farbe):
-    turtle.bgcolor("Black")
+    #turtle.bgcolor("Black")
     turtle.color(farbe)
     for blatt in range(10):
         turtle.circle(100, extent=60)
@@ -48,12 +48,15 @@ def blume(farbe1, farbe2):
 
 
 schreibe_H("Red")
-turtle.clearscreen()
+#turtle.clearscreen()
+turtle.clear()
 quadrat("Blue", 100)
 quadrat("Red", 50)
-turtle.clearscreen()
+#turtle.clearscreen()
+turtle.clear()
 stern("Yellow")
-turtle.bgcolor("White")
-turtle.clearscreen()
+#turtle.bgcolor("White")
+#turtle.clearscreen()
+turtle.clear()
 blume("Violet", "Yellow")
 turtle.done()
