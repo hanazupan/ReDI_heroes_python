@@ -3,7 +3,7 @@ import turtle
 
 # einfache Befehle - Farbe, Richtung, Geschwindigkeit
 turtle.color("Blue")
-turtle.speed("slowest")
+turtle.speed(10)
 turtle.forward(50)
 turtle.left(90)
 turtle.forward(50)
@@ -13,11 +13,11 @@ turtle.circle(30)
 
 turtle.hideturtle()
 
-turtle.clearscreen()
+#turtle.clearscreen()
 
 # Zeichen H
 turtle.color("Green")
-turtle.speed("slow")
+turtle.speed(10)
 turtle.left(90)
 turtle.forward(200)
 turtle.backward(100)
@@ -29,4 +29,4 @@ turtle.backward(200)
 
 turtle.hideturtle()
 
-turtle.done()
+#turtle.done()
