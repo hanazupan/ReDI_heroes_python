@@ -8,13 +8,14 @@ for i in range(40):
     turtle.left(i*2+i/9)
 turtle.hideturtle()
 
-turtle.clearscreen()
+#turtle.clearscreen()
 
 # einfache if-Sätze: eine Entscheidung treffen
 kosten = int(input("Wie viel kosten die Ferien? "))
 freunde = int(input("Wie viele Menschen werden teilnehmen? "))
 deine_kosten = kosten/freunde
-print(f"Du müsstest im diesen Fall {round(deine_kosten)}€ bezahlen.")
+#print(f"Du müsstest im diesen Fall {round(deine_kosten)}€ bezahlen.")
+print("Du muesstest im diesen Fall " + str(round(deine_kosten)) + " Euro bezahlen.")
 if deine_kosten > 100:
     print("Das kannst du dich leider nicht leisten.")
 else:
