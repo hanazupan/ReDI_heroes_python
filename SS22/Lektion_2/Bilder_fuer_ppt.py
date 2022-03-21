@@ -1,7 +1,7 @@
 import turtle as t
 
 # ##################### Bild 1 (Stern)
-# t.hidet()
+# t.hideturtle()
 # t.color('green', 'blue')
 # for runde in range(80):
 #     t.forward(200)
@@ -9,7 +9,7 @@ import turtle as t
 # t.clearscreen()
 
 # ##################### Bild 2 (Herz)
-t.hidet()
+t.hideturtle()
 t.width(5)
 t.color('red', 'red')
 t.begin_fill()
@@ -27,7 +27,7 @@ t.end_fill()
 #t.clearscreen()
 
 # ##################### Bild 3 (Pacman)
-# t.hidet()
+# t.hideturtle()
 # t.color('yellow', 'yellow')
 # t.begin_fill()
 # t.left(90 - 45)

@@ -1,32 +1,32 @@
 # eine Bibliothek bzw ein Paket
-import turtle
+import turtle as t
 
 # einfache Befehle - Farbe, Richtung, Geschwindigkeit
-turtle.color("Blue")
-turtle.speed(10)
-turtle.forward(50)
-turtle.left(90)
-turtle.forward(50)
-turtle.color("Red")
-turtle.circle(30)
+t.color("Blue")
+t.speed(10)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.color("Red")
+t.circle(30)
 
 
-turtle.hideturtle()
+t.hideturtle()
 
-#turtle.clearscreen()
+#t.clearscreen()
 
 # Zeichen H
-turtle.color("Green")
-turtle.speed(10)
-turtle.left(90)
-turtle.forward(200)
-turtle.backward(100)
-turtle.right(90)
-turtle.forward(70)
-turtle.right(90)
-turtle.forward(100)
-turtle.backward(200)
+t.color("Green")
+t.speed(10)
+t.left(90)
+t.forward(200)
+t.backward(100)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(100)
+t.backward(200)
 
-turtle.hideturtle()
+t.hideturtle()
 
-#turtle.done()
+#t.done()
