@@ -58,6 +58,13 @@ print(f"Die schlechtesten 5 Noten sind: {meine_noten[-1:-6:-1]}")
 # - ...oder was spannenderes
 # und benutze mindestens einige dieser Funktionen!
 
+# Fortgeschrittene Aufgaben mit Listen (for-schleifen!)
+# - die Summe aller Elementen
+# - finde den großten Element
+# - finde Wörter länger als n Zeichnen
+# - Quadraten
+# - entferne Elemente die doppelt vorkommen
+
 # Extra if someone is interested - operations on strings (let them google more)
 print(" --------- strings -----------")
 mein_name = "hana"
@@ -72,3 +79,9 @@ print(f"{palindrom} umgekehrt ist gleich {palindrom[::-1]}!")
 ein_palinrom = "Bei der Edna redete der andere Dieb"
 print(ein_palinrom[::-1].lower())
 # ... und so weiter ...
+
+
+# Fortgeschrittene Aufgaben mit strings (for-schleifen!)
+# - wie viele Zeichen hat der String (ohne len() zu benutzen)
+# - string aus ersten 2 und letzten 2 Charakter
+# - entferne ein bestimmtes Wort aus dem Satz ...
