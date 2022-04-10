@@ -10,17 +10,20 @@ import turtle as t
 # t.hideturtle()
 
 # Stern
-# farbe = "red"
-# t.width(5)
-# t.color(farbe)
-# for blatt in range(10):
-#     t.circle(100, 60)
-#     t.left(170)
-#     t.circle(100, 60)
+farbe = "red"
+t.width(5)
+t.color(farbe)
+for blatt in range(10):
+    t.circle(100, 60)
+    t.left(170)
+    t.circle(100, 60)
+t.hideturtle()
 
 # Spirale
-# t.color("Red")
+# farben = ["green", "red", "blue", "light green", "brown", "orange"]
+# t.width(3)
 # for i in range(40):
+#     t.color(farben[i%6])
 #     t.forward(15-i/3)
 #     t.left(i*2+i/9)
 # t.hideturtle()
@@ -35,17 +38,19 @@ import turtle as t
 # t.hideturtle()
 
 # Blume
-farbe1 = "black"
-farbe2 = "violet"
-t.color(farbe1)
-t.begin_fill()
-for blatt in range(10):
-    t.circle(100, 60)
-    t.left(100)
-    t.circle(100, 60)
-t.end_fill()
-t.color(farbe2)
-t.begin_fill()
-t.circle(20)
-t.end_fill()
-t.hideturtle()
+# farbe1 = "lightblue"
+# farbe2 = "violet"
+# t.color(farbe1)
+# t.begin_fill()
+# for blatt in range(10):
+#     t.circle(100, 60)
+#     t.left(100)
+#     t.circle(100, 60)
+# t.end_fill()
+# t.color(farbe2)
+# t.begin_fill()
+# t.circle(20)
+# t.end_fill()
+# t.hideturtle()
+
+t.done()
